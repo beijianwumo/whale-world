@@ -1,0 +1,62 @@
+        /* 音乐播放器*/
+            .audio{
+                width: 100%;
+        }
+
+        /* 先不用这个居中*/
+            .audio-container {
+             display: flex;
+             justify-content: center;
+             align-items: center 
+        }
+
+            .audio-container {
+             position:absolute; 
+             bottom: 2px;
+             right: 0px;
+        }
+
+
+
+
+<div class="audio-container">
+    <audio controls="controls" height="100" width="100" style="transform:scale(0.8,0.8)">
+       <source src="song/三輪学 (Manack) - -遠い空へ- (飞向遥远的天空) (ヨスガノソラ メインテーマ).mp3" type="audio/mp3" />
+       <source src="song/三輪学 (Manack) - -遠い空へ- (飞向遥远的天空) (ヨスガノソラ メインテーマ).ogg" type="audio/ogg" />
+     <embed height="100" width="100" src="song/三輪学 (Manack) - -遠い空へ- (飞向遥远的天空) (ヨスガノソラ メインテーマ) - 副本.mp3" />
+     </audio>
+    </div>
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+
+
+.shadowbox{  
+ float:left;
+ margin-left:20px;
+   background: #EEFF99; 
+   width:200px;
+   height:400px; 
+}  
+.shadowbox:hover{
+	
+	  -webkit-box-shadow: #ccc 0px 10px 10px;  
+   -moz-box-shadow: #ccc 0px 10px 10px;  
+   box-shadow: #ccc 0px 10px 10px;  }
+</style>
+</head>
+ 
+<body>
+<div class="shadowbox"></div>  
+<div class="shadowbox"></div> 
+<div class="shadowbox"></div> 
+
+
+
+</body>
+</html>
